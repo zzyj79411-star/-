@@ -1,9 +1,3 @@
-import {StrictMode} from 'react';
-import {createRoot} from 'react-dom/client';
-import App from './App.tsx';
-import './index.css';
-import { ToastProvider } from './components/Toast';
-
 // Fix for "Cannot set property fetch of #<Window> which has only a getter"
 // This can happen when libraries like html2canvas or jspdf try to polyfill fetch
 if (typeof window !== 'undefined') {
@@ -25,6 +19,12 @@ if (typeof window !== 'undefined') {
     // Already protected or other error
   }
 }
+
+import {StrictMode} from 'react';
+import {createRoot} from 'react-dom/client';
+import App from './App.tsx';
+import './index.css';
+import { ToastProvider } from './components/Toast';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
