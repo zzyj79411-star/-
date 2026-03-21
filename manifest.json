@@ -1,0 +1,16 @@
+{
+  "name": "设计风格分析助手",
+  "short_name": "风格分析",
+  "description": "上传图片，AI帮你分析设计风格并生成复刻提示词",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
