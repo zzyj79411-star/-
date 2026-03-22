@@ -6,9 +6,9 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "icons": [
+ "icons": [
   {
-    "src": "icon.png",
+    "src": "/icon.png",
     "sizes": "512x512",
     "type": "image/png"
   }
