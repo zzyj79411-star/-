@@ -6,10 +6,11 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
- "icons": [
-  {
-    "src": "/icon.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }
-]
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
